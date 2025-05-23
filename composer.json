@@ -1,0 +1,10 @@
+{
+  "name": "user/credencial-system",
+  "description": "API for generating and managing credentials",
+  "require": {
+    "slim/slim": "^4.8",
+    "slim/psr7": "^1.4",
+    "firebase/php-jwt": "^5.5",
+    "vlucas/phpdotenv": "^5.4"
+  }
+}
