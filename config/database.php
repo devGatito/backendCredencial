@@ -9,7 +9,7 @@ class Database {
     private $db = 'credential_system';
     private $user = 'root';
     private $pass = '';
-    private $charset = 'utf8mb4';
+    private $charset = 'utf8mb4'; 
 
     public function connect() {
         $dsn = "mysql:host=$this->host;dbname=$this->db;charset=$this->charset";
